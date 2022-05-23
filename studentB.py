@@ -1,7 +1,7 @@
 import random
 
 def ai_move(board):
-    new_boardw = board.copy()
+    new_board = board.copy()
     possible_cell_indexes = []
     for idx, cell in enumerate(board):
         if(cell != 'O' and cell != 'X'):
